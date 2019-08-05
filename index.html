@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Spann Home Service</title>
 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><!--bootstrap-->
+
 	<link rel="stylesheet" type='text/css' href="index.css">
 	<link rel="stylesheet" type='text/css' href="content.css">
 </head>
@@ -50,7 +52,23 @@
 
 	<section class="about">
 		<h2 class="title">Contact</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptas ea hic odio tempora odit velit animi libero molestiae corporis mollitia possimus autem incidunt assumenda, eos pariatur architecto dolore fugit eius. Autem deleniti, eum voluptatibus error dicta dolores, veniam cumque.</p>
+		<form action="sumbit">
+			<div class="client-info">
+				<label for='name'>Name:</label>
+				<input type="text" name='name'/>
+				<label for='phone'>Phone:</label>
+				<input type="text" name='phone'/>
+				<label for='subject'>Subject:</label>
+				<input type="text" name='subject'/>
+				</div>
+				<textarea 
+				name="message" 
+				id='message' 
+				cols="60" 
+				rows="10"
+				placeholder='Leave your message here!'></textarea>
+				<button class="btn bnt-primary">Submit</button>
+		</form>
 	</section>
 
 
