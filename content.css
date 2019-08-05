@@ -15,6 +15,18 @@ section {
 .title {
 	text-align: center;
 }
+.services { 
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: center;
+ }
+.service {
+	padding: 1rem;
+  width: 30%;
+  border: 2px outset var(--overlay-color);
+  margin: .5rem;
+}
 
 
 
@@ -27,5 +39,4 @@ form {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
 }
