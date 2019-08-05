@@ -1,0 +1,17 @@
+:root {
+	--primary-color: rgba(30, 90, 139, 0.75);
+	--overlay-color: rgba(67, 78, 99, 0.85);
+	--menu-speed: 0.75s;
+}
+
+
+section {
+	padding: 3rem;
+	text-align: center;
+	background-color: var(--overlay-color);
+	color: white;
+}
+
+.title {
+	text-align: center;
+}
