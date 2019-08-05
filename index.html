@@ -6,6 +6,8 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><!--bootstrap-->
 
+	<link href="https://fonts.googleapis.com/css?family=Muli|PT+Serif|Roboto+Slab|Rubik&display=swap" rel="stylesheet">
+
 
 
 	<link rel="stylesheet" type='text/css' href="index.css">
@@ -20,10 +22,10 @@
 			<div>
 				<div>
 					<ul>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Rates</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#rates">Rates</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -39,12 +41,12 @@
 	</header>
 
 	<section class="about">
-		<h2 class="title">About</h2>
+		<h2 class="title" id='about'>About</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptas ea hic odio tempora odit velit animi libero molestiae corporis mollitia possimus autem incidunt assumenda, eos pariatur architecto dolore fugit eius. Autem deleniti, eum voluptatibus error dicta dolores, veniam cumque.</p>
 	</section>
 
 	<section class="rates">
-		<h2 class="title" >Services</h2>
+		<h2 class="title" id='rates' >Services</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quae ratione, doloremque impedit eos deleniti.</p>
 		<div class="services">
 			<div class="service">
@@ -74,13 +76,13 @@
 
 
 	<section class="Testimonials">
-		<h2 class="title">Testimonials</h2>
+		<h2 class="title" id='testimonials'>Testimonials</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptas ea hic odio tempora odit velit animi libero molestiae corporis mollitia possimus autem incidunt assumenda, eos pariatur architecto dolore fugit eius. Autem deleniti, eum voluptatibus error dicta dolores, veniam cumque.</p>
 	</section>
 
-	<section class="about">
-		<h2 class="title">Contact</h2>
-		<form action="sumbit">
+	<section class="contact">
+		<h2 class="title" id='contact'>Contact</h2>
+		<form action="#" name='contact' method='POST' data-netlify='true'>
 			<div class="client-info">
 				<label for='name'>Name:</label>
 				<input type="text" name='name'/>

@@ -10,10 +10,18 @@ section {
 	text-align: center;
 	background-color: var(--overlay-color);
 	color: white;
+	border-bottom: 2px inset #111;
 }
+section p {
+	font-family: 'PT Serif', serif;
+}
+ label {
+ 	font-family: 'PT Serif', serif;
+ }
 
 .title {
 	text-align: center;
+	font-family: 'Muli', sans-serif
 }
 .services { 
 	display: flex;	
@@ -32,6 +40,8 @@ section {
 
 .client-info {
 	margin-bottom: 1rem;
+
+
 }
 
 form {
@@ -39,4 +49,6 @@ form {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+
 }
