@@ -52,3 +52,12 @@ form {
 
 
 }
+
+.call-today {
+	display: inline-block;
+	color: white;
+	text-decoration: underline;
+	padding-top: 20px;
+	font-weight: 500;
+	font-size: 22px;
+}

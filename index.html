@@ -9,7 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli|PT+Serif|Roboto+Slab|Rubik&display=swap" rel="stylesheet">
 
 
-
+	
 	<link rel="stylesheet" type='text/css' href="index.css">
 	<link rel="stylesheet" type='text/css' href="content.css">
 <script src="https://kit.fontawesome.com/fd3e5e9687.js"></script>
@@ -22,10 +22,10 @@
 			<div>
 				<div>
 					<ul>
-						<li><a href="#about">About</a></li>
-						<li><a href="#rates">Rates</a></li>
-						<li><a href="#testimonials">Testimonials</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#about" id='about'>About</a></li>
+						<li><a href="#rates" id='rates' >Services</a></li>
+						<li><a href="#testimonials" id='testimonials'>Testimonials</a></li>
+						<li><a href="#contact" id='contact'>Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -41,12 +41,12 @@
 	</header>
 
 	<section class="about">
-		<h2 class="title" id='about'>About</h2>
+		<h2 class="title" id='about-text'>About</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptas ea hic odio tempora odit velit animi libero molestiae corporis mollitia possimus autem incidunt assumenda, eos pariatur architecto dolore fugit eius. Autem deleniti, eum voluptatibus error dicta dolores, veniam cumque.</p>
 	</section>
 
 	<section class="rates">
-		<h2 class="title" id='rates' >Services</h2>
+		<h2 class="title" id='rates-text' >Services</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error quae ratione, doloremque impedit eos deleniti.</p>
 		<div class="services">
 			<div class="service">
@@ -76,12 +76,12 @@
 
 
 	<section class="Testimonials">
-		<h2 class="title" id='testimonials'>Testimonials</h2>
+		<h2 class="title" id='testimonials-text'>Testimonials</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, voluptas ea hic odio tempora odit velit animi libero molestiae corporis mollitia possimus autem incidunt assumenda, eos pariatur architecto dolore fugit eius. Autem deleniti, eum voluptatibus error dicta dolores, veniam cumque.</p>
 	</section>
 
 	<section class="contact">
-		<h2 class="title" id='contact'>Contact</h2>
+		<h2 class="title" id='contact-text'>Contact</h2>
 		<form action="#" name='contact' method='POST' data-netlify='true'>
 			<div class="client-info">
 				<label for='name'>Name:</label>
@@ -99,6 +99,8 @@
 				placeholder='Leave your message here!'></textarea>
 				<button class="btn bnt-primary">Submit</button>
 		</form>
+
+		<a href='tel:+1-737-226-1090' class='call-today'>Or Call Today!</a>
 	</section>
 
 
