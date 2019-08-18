@@ -220,3 +220,27 @@ body {
 	text-decoration: none;
 	transition: color 0.4s ease;
 }
+
+.large-screen {
+	width: 100%;
+	position: fixed;
+	padding-top: 20px;
+	justify-content: space-evenly;
+	display: none;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+.large-screen ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	list-style:none;
+}
+
+.nav-item {
+	color: white;
+}
+
+
