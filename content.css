@@ -12,6 +12,12 @@ section {
 	color: white;
 	border-bottom: 2px inset #111;
 }
+
+p {
+	line-height: 1.8em;
+	font-size: 18px;
+}
+
 section p {
 	font-family: 'PT Serif', serif;
 }
@@ -46,15 +52,27 @@ section p {
 
 
 .client-info {
+	width: 100%;
 	margin-bottom: 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
+
+.client-info input {
+	width: 100%;
+	margin: 1em 0em;
+}
+
+
 
 form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 70%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -74,13 +92,7 @@ textarea {
 }
 
 @media(min-width: 760px) {
-	.large-screen {
-		display: flex;
-	}
-
-	.menu-wrap {
-		display: none;
-	}
+	
 
 	.services {
 		flex-direction: row;
@@ -89,5 +101,31 @@ textarea {
 
 	.service {
 		width: 40%;
+	}
+
+	form {
+		width: 80%;
+	}
+
+	.client-info {
+		flex-direction: row;
+	}
+
+	.client-info input {
+		margin: 1em .25em;
+	}
+}
+
+@media(min-width: 1000px) {
+	.large-screen {
+		display: flex;
+	}
+
+	.menu-wrap {
+		display: none;
+	}
+	
+	.service {
+		width: 45%;
 	}
 }
