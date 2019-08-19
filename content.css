@@ -15,7 +15,7 @@ section {
 
 p {
 	line-height: 1.8em;
-	font-size: 18px;
+	font-size: 15px;
 }
 
 section p {
@@ -93,7 +93,10 @@ textarea {
 
 @media(min-width: 760px) {
 	
-
+	p {
+		line-height: 1.9em;
+		font-size: 18px;
+	}
 	.services {
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -117,6 +120,12 @@ textarea {
 }
 
 @media(min-width: 1000px) {
+
+	p {
+		line-height: 2em;
+		font-size: 21px;
+	}
+
 	.large-screen {
 		display: flex;
 	}
